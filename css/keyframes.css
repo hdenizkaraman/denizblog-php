@@ -1,0 +1,215 @@
+/* CSS Document */
+@keyframes topItemAnimation {
+  from {opacity: 0; transform:translate3d(0, -60px, 0);}
+  to {opacity: 1; transform:translate3d(0, 0, 0);}
+}
+
+@-webkit-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}@-moz-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}@-o-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}@keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@keyframes otherPosts{
+	0%{margin-right: 0px;}
+	100%{margin-right: 840px;}
+}
+
+@-webkit-keyframes rotateTiny{
+	0%{transform: rotate(0deg)}
+	30%{transform: rotate(10deg)}
+	60%{transform: rotate(-10deg)}
+	90%{transform: rotate(0deg)}
+}@-moz-keyframes rotateTiny{
+	0%{transform: rotate(0deg)}
+	30%{transform: rotate(10deg)}
+	60%{transform: rotate(-10deg)}
+	90%{transform: rotate(0deg)}
+}@-o-keyframes rotateTiny{
+	0%{transform: rotate(0deg)}
+	30%{transform: rotate(10deg)}
+	60%{transform: rotate(-10deg)}
+	90%{transform: rotate(0deg)}
+}@keyframes rotateTiny{
+	0%{transform: rotate(0deg)}
+	30%{transform: rotate(10deg)}
+	60%{transform: rotate(-10deg)}
+	90%{transform: rotate(0deg)}
+}
+
+@-webkit-keyframes fadeIn-short{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}@-moz-keyframes fadeIn-short{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}@-o-keyframes fadeIn-short{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}@-moz-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}@-o-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+@-webkit-keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-1050px;}
+    40% {left:-1050px;}
+    50% {left:-1050px;}
+    60% {left:-2105px;}
+    70% {left:-2105px;}
+    80% {left:-2105px;}
+    100% {left:0px;}
+	
+}
+
+@-moz-keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-1050px;}
+    40% {left:-1050px;}
+    50% {left:-1050px;}
+    60% {left:-2105px;}
+    70% {left:-2105px;}
+    80% {left:-2105px;}
+	100% {left:0px;}
+}
+
+@-o-keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-1050px;}
+    40% {left:-1050px;}
+    50% {left:-1050px;}
+    60% {left:-2105px;}
+    70% {left:-2105px;}
+    80% {left:-2105px;}
+	100% {left:0px;}
+}
+
+@keyframes sliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-1050px;}
+    40% {left:-1050px;}
+    50% {left:-1050px;}
+    60% {left:-2105px;}
+    70% {left:-2105px;}
+    80% {left:-2105px;}
+	100% {left:0px;}
+}
+
+
+
+
+@-webkit-keyframes minisliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-400px;}
+    40% {left:-400px;}
+    50% {left:-400px;}
+    60% {left:-800px;}
+    70% {left:-800px;}
+    80% {left:-800px;}
+	100% {left:0px;}
+}
+
+@-moz-keyframes minisliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-400px;}
+    40% {left:-400px;}
+    50% {left:-400px;}
+    60% {left:-800px;}
+    70% {left:-800px;}
+    80% {left:-800px;}
+	100% {left:0px;}
+}
+
+@-o-keyframes minisliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-400px;}
+    40% {left:-400px;}
+    50% {left:-400px;}
+    60% {left:-800px;}
+    70% {left:-800px;}
+    80% {left:-800px;}
+	100% {left:0px;}
+}
+
+@keyframes minisliders{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:0px;}
+    30% {left:-400px;}
+    40% {left:-400px;}
+    50% {left:-400px;}
+    60% {left:-800px;}
+    70% {left:-800px;}
+    80% {left:-800px;}
+	100% {left:0px;}
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes footerSocial{
+	0% {transform: rotate(0deg)}
+	25% {transform: rotate(20deg)}
+	50% {transform: rotate(0deg)}
+	50% {transform: rotate(-20deg)}
+	100% {transform: rotate(0deg)}
+}
+
+@-moz-keyframes footerSocial{
+	0% {transform: rotate(0deg)}
+	25% {transform: rotate(20deg)}
+	50% {transform: rotate(0deg)}
+	50% {transform: rotate(-20deg)}
+	100% {transform: rotate(0deg)}
+}
+
+@-o-keyframes footerSocial{
+	0% {transform: rotate(0deg)}
+	25% {transform: rotate(20deg)}
+	50% {transform: rotate(0deg)}
+	50% {transform: rotate(-20deg)}
+	100% {transform: rotate(0deg)}
+}
+
+@keyframes footerSocial{
+	0% {transform: rotate(0deg)}
+	25% {transform: rotate(20deg)}
+	50% {transform: rotate(0deg)}
+	50% {transform: rotate(-20deg)}
+	100% {transform: rotate(0deg)}
+}

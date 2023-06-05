@@ -1,0 +1,895 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import "https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800";
+@import "https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body{background-color:#F3F3F3;}
+
+
+/*ANA SAYFA*/
+.socialMenu ul li{float: left;}
+.socialMenu ul li a{display: block; padding: 24.5px 14px;}
+#heSocial_bg{width: auto; height: 70px; background-color: gray;}
+#heSocial{width: 184px; height: 70px;margin: 0 auto;}
+#heSocial ul li a:hover{background-color: aquamarine;}
+
+.heLogo{width: 400px; height: 105px; margin: 30px auto;}
+
+#navbar
+{
+    width:auto;
+    display:block;
+    text-align:center;
+    font-family:Montserrat;
+    line-height:1.2;
+}
+#navbar ul
+{
+    width:auto;
+    display:block;
+    font-size:0;
+    text-align:center;
+    color:#EEEEEE;
+    background-color: #333333;
+    border: transparent;
+    margin:0; 
+    padding:0;
+    list-style:none;
+    position:relative;
+    z-index:90;
+    border-radius: 3px;
+} 
+
+#navbar li
+{
+    display:inline-block;
+    position:relative;    
+    font-size:0; 
+    margin:0;
+    padding:0;
+}
+
+
+/*Top level items
+---------------------------------------*/
+#navbar >ul>li>span, #navbar >ul>li>a, #navbar >ul>li>b
+{   
+    font-size:16px;
+    color:inherit;
+    text-decoration:none;
+    padding:14px 20px; 
+    font-weight:400;
+    text-transform:uppercase;
+    letter-spacing:2px;   
+    display:block;   
+    position:relative;
+    transition:all 0.3s;
+	cursor: pointer;
+}
+#navbar li:hover > span, #navbar li:hover > a, #navbar li:hover > b
+{  
+    color:#333333;
+    background-color:#F3F3F3;
+}
+/*Navbar Search Box
+---------------------------------------*/
+#navbar-search{
+	width: 200px; 
+	height: 25px; 
+	border: none; 
+	padding: 3px;
+	float: left;
+	font: bold 14px Nunito;
+	
+}
+#navbar-searchbox button{
+	width: 50px;
+	height: 31px;
+	float: left;
+	border: none;
+	background-color: darkcyan;
+	color: white;
+	cursor: pointer;
+}
+#search-drop{
+	width: 256px !important;
+	
+}
+/*Sub level items
+---------------------------------------*/
+#navbar .dropdown
+{
+    text-align:left;
+    left:0;
+    font-family:Helvetica, Arial, sans-serif;
+    color: #333333;
+    background-color:#F3F3F3;
+    border:none;
+    position:absolute;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    display:none;
+    opacity:0;
+    cursor:default;
+}
+
+#navbar .dropdown li {
+    display: block;  
+}
+
+#navbar .dropdown li > span, #navbar .dropdown li > a, #navbar .clm a, #navbar .clm h3 
+{
+    font-size:14px;
+    font-weight:400;
+    font-family:inherit;
+    margin:0;
+    padding:8px 20px; 
+    display:block;
+    color:inherit;
+    text-decoration:none;
+}
+#navbar .clm h3 {
+    font-size:20px;
+    font-weight:700;
+}
+
+#navbar .dropdown li:hover > span, #navbar .dropdown li:hover > a
+{
+    color:#333333;
+    background-color:#DDDDDD;
+}
+
+#navbar .clm a:hover
+{
+    color:#333333;
+    transition:color 0.2s;
+}
+
+#navbar li.full-width{
+    position:static;
+}
+#navbar li.full-width .dropdown{
+    width:100%;
+    left:0;
+    box-sizing:border-box;
+}  
+
+#navbar li:hover > .dropdown
+{
+    display:block;
+    opacity:1;
+    z-index:1;
+}
+
+#navbar ul.dropdown
+{
+    min-width:240px; /* Sub level menu min width */
+}
+
+#navbar div.dropdown{
+    text-align:center;
+}
+
+/* each column */
+#navbar .clm
+{
+    text-align:left;
+    margin:20px;
+    vertical-align:top;/*or middle*/
+    width:auto;
+    min-width:240px;
+    display:inline-block;
+    *display:inline;*zoom:1;
+}
+
+#navbar .clm a:hover
+{
+    color:#333333;
+    text-decoration:underline;
+}
+
+/*-----------Arrows----------------*/
+#navbar .arrow {
+    color:inherit;
+    border-style:solid; border-width:2px 2px 0 0; padding:4px; transform:rotate(135deg);margin-top:-8.5px;margin-left:4px;
+    position:relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align:middle;
+    overflow:hidden;/*for IE6*/
+}
+        
+#navbar .dropdown .arrow {
+    transform:rotate(45deg);
+    top:50%;margin-top:-6px;
+    position:absolute;left:auto;right:20px;
+} 
+
+
+.hpSlider{width: 1050px; margin: 0 auto; margin-top: 50px;}
+.hpSlider-all{position: relative; width: 1050px; height: 500px; overflow: hidden;}
+.hpSlider-img img{width: 1050px; height: 500px;}
+#hpSlider-img1{left: 2100px;	float:left;}
+#hpSlider-img2{left: 2100px;	float:left;}
+#hpSlider-img3{left: 2100px;	float:left;}
+.hpSlider-all > .hpSlider-sing
+{
+    position: absolute;
+    left: -165px;
+    width: 4200px;
+    height: 500px;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-name: sliders;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-duration: 10s;
+    -moz-animation-name: sliders;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-duration: 10s;
+    -ms-animation-name: sliders;
+    -ms-animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    top: -3px;
+}
+.hpSlider:hover .hpSlider-sing{animation-play-state: paused;}
+
+
+#hpContent{width: 1330px; height: auto; margin: 100px auto 400px auto; position: relative;}
+.postarea{width: 930px; height: auto; position: relative; float: left; overflow: hidden;}
+.post{width: 400px; height: 540px; margin: 0 30px 45px 10px; float: left;}
+.postHref{color: black; text-decoration: none;}
+.post_detail{width: auto; height: 15px;position: relative; padding: 9.5px 15px;}
+.post_date_text, .post_like_text{font: normal 14px Open Sans; color:#929292; margin-right: 30px; float: left;}
+.fa-thumbs-up{float: right; margin: 0 30px;}
+.post_content_title{font: bold 20px Open Sans;  width: auto; height: auto;overflow: hidden; margin: 10px 0; position: relative;}
+.post_content_text{font: normal 20px Nunito;  width: auto; height: 165px; overflow: hidden; margin: 10px 10px 0 0; position: relative;}
+.post_tagbox{height: 40px; width: 400px;position: relative;}
+.post_tag{background-color: orangered; border-radius: 40px; font: bold 16px Poppins; text-align: center; float: left; margin: 10px 0; padding: 0 10px;}
+
+.aside{
+	width: 400px;
+	height: 1000px; 
+	float: left;
+}
+.asidePart{
+	width: 100%;
+	height: auto;
+	margin-bottom: 60px;
+	overflow: auto;
+}
+.aside-titlebg{
+	width: 400px; 
+	height: 25px;
+	border-bottom: 5px solid black;
+	overflow: hidden; 
+}
+.aside-title{
+	float: right; 
+	font: bold 15px Raleway;
+	background-color: black; 
+	color: white; 
+	padding: 5px 10px;
+}
+.aside-content{
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
+	overflow: auto;
+}
+/*Aside Mail Bölümü*/
+#aside-mail-content{
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+#aside-mail-title{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	text-align: center;
+	font: bold 20px Montserrat;
+	background-color: white;
+	color: black;
+}
+#aside-mail-text{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	font: bold 14px Open Sans;
+	text-align: center;
+	border-bottom: solid 0.5px black;
+}
+.mailSubForm{
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+	overflow: auto;
+}
+.sub-mail-box{
+	width: 290px;
+	height: 35px;
+	margin: 0 auto;
+}
+.sub-mail{
+	width: 220px;
+	height: 15px;
+	padding: 10px;
+	float: left;
+	border-bottom-left-radius: 20px; 
+	border-top-left-radius: 20px;
+	border: none;
+	font: normal 14px Poppins;
+}
+.sub-mail-send{
+	width: 50px;
+	height: 35px;
+	background-color: darkblue;
+	padding-right: 10px;
+	color: white;
+	border: none;
+	border-bottom-right-radius: 20px; 
+	border-top-right-radius: 20px;
+	cursor: pointer;
+}
+
+
+/*Aside Tag Bölümü*/
+.aside-tag{
+	width: 125px;
+	height: 40px;
+	float: left;
+	font: bold 15px Montserrat;
+	padding: 5px 35px;
+	text-align: center;
+}
+
+.aside-tag a{color: black; transition: color .4s ease; border-bottom: solid 2px #4C4CC3;}
+.aside-tag a:hover{color: cadetblue; transition: color .4s ease;}
+/*Aside Film Bölümü*/
+.aside-film{
+	width: 133px;
+	height: 200px;
+	float: left;
+}
+.aside-filmbox{
+	width: 133px;
+	height: 140px;
+	opacity: 0;
+	background-color: black;
+	color: white;
+	font: bold 16px Poppins;
+	text-align: center;
+	padding-top: 60px;
+	transition: opacity .3s ease;
+	position: absolute;
+}
+.aside-filmbox:hover{
+	opacity: 0.8;
+	transition: opacity .5s ease;
+}
+.aside-film img{
+	width: 133px;
+	height: 200px;
+}
+/*Aside Son Yazılar Bölümü*/
+.aside-lastones{
+	width: 100%-10px;
+	height: auto;
+	padding: 10px;
+	border-left: solid 3px darkred;
+	border-right: solid 3px darkred;
+	box-sizing: border-box;
+	text-align: center; 
+	transition: border-color .5s ease;
+}
+.aside-lastones a{font: bold 15px Raleway; color: black; transition: color .5s ease;}
+.aside-lastones:hover{
+	border-left: solid 3px darkblue; 
+	border-right: solid 3px darkblue; 
+	transition: border-color .5s ease;
+}
+.aside-lastones:hover a{color: darkblue; transition: color .5s ease;}
+
+
+/*HAKKIMDA SAYFASI*/
+.abo-content{
+	width: 1300px; 
+	height: auto; 
+	margin: 40px auto;
+	overflow: auto;
+}
+.abo-section{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+	background-color: white;
+	overflow: auto;
+}
+
+#abo1-title{width: 100%; height: auto; margin: 20px 0;} 
+#abo1-title b{padding: 5px; background-color: brown; color: white; font: bold 20px Open Sans;}
+abo1-text{width: 100%; height: auto;}
+
+#abo1-img{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 30px 0
+}
+#abo1-img img{width: 250px; height: 250px; margin: 5%;}
+#abo1-content{width: 1000px; height: 100%; float: left; font: normal 18px Open Sans; margin: 30px 0;}
+
+
+#abo2-title{width: 100%; height: auto; font: normal 25px Open Sans; margin: 20px 0;}
+#abo2-title b{padding: 5px; border-bottom: solid 1px brown; margin: 0 10px;}
+#abo2-content{margin: 30px 20px; width: 100%-20px; height: auto;}
+.abo-sing{width: 100%; height: auto; margin-bottom: 20px; clear: both; overflow: auto;}
+.abo-sing span{font: bold 16px Raleway; margin: 5px 20px 0 0; float: left;}
+.abo-sing span i{padding: 0 10px;}
+.abo-prog{
+	width: 300px; 
+	height: 10px; 
+	padding: 10px;
+	background-color: #353535;
+	float: left; 
+	border-radius: 20px;
+}
+.abo-prog progress{
+	display: block; 
+	-webkit-appearance: none;
+	width: 300px;
+	height: 10px;
+}
+.abo-prog progress::-webkit-progress-bar {
+	background: black;
+	border-radius: 50px;
+	padding: 2px;
+	box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+
+.abo-prog progress::-webkit-progress-value{
+	border-radius: 50px;
+	box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+	background:
+		-webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+		-webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+		-webkit-linear-gradient(left, #CCFFE5, #33FF99);	
+}
+
+#abo-sec3{width: 500px; padding: 30px; float: left; margin-right: 80px}
+#abo-sec4{width: 600px; padding: 30px; float: left;}
+
+
+
+
+/*KATEGORİLER SAYFASI*/
+.cpc_title{width: 100%-50px; height: auto; font: normal 30px Oswald; padding: 0 0 0 50px; margin: 0 0 30px 0; letter-spacing: 0.5px; word-spacing: 10px;}
+.cpc_title b{background-color: cornflowerblue; padding: 0 5px;}
+.cpc_title i{background-color: goldenrod; padding: 0 5px;}
+.cat_content
+{
+	width: 1380px; height: auto; margin: 50px auto;
+}
+
+#cpc_postarea{width: 1380px; margin: 0 auto; height: auto;}
+#catPost{margin-left: 30px;}
+
+
+
+
+
+
+
+
+
+
+/*YAZI DETAY*/
+.ap_content{width: 1330px; height: auto; margin: 60px auto;}
+.apc_article{width: 930px; height: auto; float: left; margin-bottom: 700px;}
+.apc_aside{width: 350px;   height: 1500px; float: left; margin: 40px 0 0 50px;}
+
+.article_cat{width: 40%; height: 50px; margin-top: 5px;}
+#articleCat{margin-left: 0 !important; background-color: dodgerblue !important; color: white !important;}
+
+.article_details{width: 60%; height: 35px; padding: 15px 0 0 0; margin-top: 5px;}
+.article_details span
+{
+	font: normal 14px Ubuntu; 
+	margin-right: 30px;
+}
+
+
+.article_title
+{
+	width: 100%; height: auto;
+	font: bold 28px Open Sans;
+}
+
+.article_content
+{
+	width: 100%; height: auto;
+}
+.arco-img1{width: 100%; height: 500px;}
+.article_content
+{
+	margin-top: 10px;
+	font: normal 18px Open Sans;
+}
+/*.arco-Emphasis{border-left: solid 3px darkblue; padding: 20px; font-weight: bold !important;}*/
+
+.article_tags
+{
+	width: 100%; height: auto; margin: 70px 0;
+	overflow: auto;
+}
+.article_tags a
+{
+	border: solid 1px gray; border-radius: 3px;
+	font: normal 14px Ubuntu; text-decoration: none; color: gray;
+	margin: 10px; padding: 5px; float: left;
+}
+.article_tags a:hover{border-color: black; color: black;}
+
+.article_author{width: 100%; height: 300px; border-bottom: solid 1px gray; border-top: solid 1px gray; margin: 30px 0; overflow: auto;}
+.artAuthor_img{width: 250px; height: 250px; margin: 20px 0; float: left;}
+.artAuthor_box{width: 500px; height: 200px; float: left; margin: 25px 50px;}
+.artAuthor_name{font: bold 35px Oswald; letter-spacing: 0.25px;}
+.artAuthor_text{font: normal 15px Ubuntu;}
+.artAuthor_readm{font: normal 14px Raleway; margin: 20px 0;} 
+.artAuthor_readm a{color: darkblue; text-decoration: none;} 
+.artAuthor_readm i{margin-left: 5px; color: darkblue; transition: margin-left 1s ease;}
+.artAuthor_readm:hover i{margin-left: 10px; transition: margin-left 1s ease;}
+
+.article_more{width: 100%; height: 730px; background-color: silver;}
+.artMore_title{width: 100%-10px; height: 35px; background-color: darkgray; font: bold 30px Raleway; padding: 10px;}
+.artMore_post{width: 270px; height: 300px; margin: 20px 20px 0 20px; float: left;}
+.artMore_img{overflow: hidden; width: 270px; height: 200px;}
+.artMore_img img{transition: transform 1s ease;}
+.artMore_post:hover{overflow: hidden;}
+.artMore_post:hover .artMore_img img{transform: scale(1.2); transition: transform 1s ease;}
+.artMore_name{width: 270px; height: 100px; font: normal 16px Open Sans; text-align: center;}
+
+
+.article_comments{width: 100%; height: auto; margin: 100px 0;}
+.comments_title{width: 100%; height: 70px; border-bottom: solid 1px gray; font: normal 35px Oswald}
+
+.comments_send{width: 100%-30px; height: auto; margin: 20px 0; background-color: dimgray; padding: 10px; overflow: auto;
+border-right: solid 10px gray; border-left: solid 10px gray;}
+.comsend_sec1{width: 100%; height: auto; float: left; margin-right: 10px;}
+.comsend1_title{width: 100%; height: auto; font: normal 30px Oswald; color: white;}
+.comsend1_title b{background-color: brown; padding: 0 5px;}
+
+.comsend_form{width: 100%; margin-top: 30px;}
+.comsend_form label{font: normal 17px Oswald; color: lightgray;}
+.comsend_form input{font: bold 14px Raleway; width: 40%;padding: 5px; border-radius: 5px; border: none;}
+#comsend_submit{width: 15%; background-color: darkred; color: white; cursor: pointer; margin-bottom: 20px;
+transition: background-color 0.5s ease;}
+#comsend_submit:hover{background-color: brown; transition: background-color 0.5s ease;}
+#comsend_text{width: 60%; height: 350px; resize: none; font: normal 15px Open Sans;}
+
+.commentsArea{width: 100%; height: auto; margin-top: 50px;}
+.singleComment{width: 100%-40px; height: auto; background-color: white; border-radius: 30px; 
+padding: 20px 40px; margin-bottom: 20px;}
+.singcom_name{font: normal 20px Oswald; width: 100%; margin-bottom: 10px; letter-spacing: 0.5px;}
+.singcom_text{font: normal 16px Open Sans; width: 100%; margin-bottom: 20px; height: 100px; background-color: #9E3F3F;}
+.singcom_date{width: 100%; font: normal 15px Poppins; margin-bottom: 10px;}
+
+.singcom_tool{width: 100%; height: 35px;}
+.singcom_ok{
+	background-color: green; font: normal 13px Poppins; color: white; text-decoration: none;
+	width: auto; padding: 5px; float: left; height: 20px;
+	transition: background-color 1s ease;}
+
+.singcom_web{width: auto; padding: 5px; background-color: darkorange; float: left; height: 20px; 
+transition: background-color 0.5s ease; margin-right: 10px; }
+.singcom_web:hover{background-color: cadetblue; transition: background-color 1s ease;}
+.singcom_web a{text-decoration: none; color: white; font: normal 13px Poppins;}
+
+
+
+.artaside-part{width: 100%; height: auto; overflow: auto; margin-bottom: 60px;}
+#artaside-titlebg{width: 100% !important; border-bottom-color: darkblue;}
+#artaside-title{background-color: darkblue !important;}
+.artaside-content{width: 100%; height: auto; overflow: auto; margin-top: 5px;}
+
+#artaside-qform{width: 310px; height: 35px; margin-top: 20px; float: right;}
+#artaside-qbox{width: 40px; height: 35px; float: left; background-color: brown;}
+#artaside-qbox i{margin: 9px; color: white;}
+#artaside-qinput{width: 250px; height: 35px; padding: 5px 10px; float: left; border: solid 1px brown;}
+
+#artaside-samecat{margin-top: 20px;}
+.artaside-lastpost{width: 100%-4px; height: auto; margin-bottom: 30px; overflow: hidden; border-left: solid 4px brown;}
+.artaside-postname{width: 330px; height: auto; float: left; font: bold 15px Open Sans; text-align: right; 
+padding-right: 20px;}
+.artaside-postname a:hover{color: brown;}
+
+/*Aside Mail Bölümü*/
+#artaside-mail{
+	background-color: aliceblue;
+	border-radius: 10px;
+}
+#artaside-mailtitle{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	text-align: center;
+	font: bold 20px Montserrat;
+	background-color: white;
+	color: black;
+}
+#artaside-mailtext{
+	width: 100%;
+	height: auto;
+	padding: 10px 0;
+	font: bold 14px Open Sans;
+	text-align: center;
+	border-bottom: solid 0.5px black;
+}
+.mailSubForm{
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+	overflow: auto;
+}
+.sub-mail-box{
+	width: 290px;
+	height: 35px;
+	margin: 0 auto;
+}
+.sub-mail{
+	width: 220px;
+	height: 15px;
+	padding: 10px;
+	float: left;
+	border-bottom-left-radius: 20px; 
+	border-top-left-radius: 20px;
+	border: none;
+	font: normal 14px Poppins;
+}
+.sub-mail-send{
+	width: 50px;
+	height: 35px;
+	background-color: darkblue;
+	padding-right: 10px;
+	color: white;
+	border: none;
+	border-bottom-right-radius: 20px; 
+	border-top-right-radius: 20px;
+	cursor: pointer;
+}
+
+
+#artaside-tagcloud a
+{
+	border: solid 1px gray; border-radius: 3px;
+	font: normal 14px Ubuntu; text-decoration: none; color: gray;
+	padding: 5px; float: right; margin: 5px;
+}
+#artaside-tagcloud a:hover{border-color: #E7C61B; color: #E7C61B;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER BAŞLANGIÇ*/
+footer{height: 500px; width: 100%; background-color: #3A3838; clear: both;}
+.ft-sections{width: 1200px; height: 500px; margin: 0 auto; background-color: black;}
+.ft-sec{height: 450px; float: left; overflow: hidden;}
+
+#ft-down{
+	width: 100%;
+	height: 30px; 
+	clear: both; 
+	font: bold 16px Raleway; 
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 20px 0 0 0;
+}
+#ft-s1{width: 400px;}
+#ft-s2{width: 400px;}
+#ft-s3{width: 400px;}
+
+.ft-title{
+	width: 100%-40px; height: auto; font: normal 20px Open Sans; color: white; 
+	margin-top: 20px; padding:  0 0 0 40px;
+}
+.ft-text{
+	width: 100%-40px; height: auto; font: normal 16px Open Sans;
+	margin-top: 20px; padding: 0 0 0 40px;
+}
+.ft-text span a{color: darkgray; border-bottom: solid 1px gray;}
+.ft-text b{color: darkgray; font-weight: bold;}
+.ft-text font{border-bottom: solid 1px gray;}
+
+.ft3-box{width: 300px; height: auto; border-bottom: solid 1px gray;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GENEL ÖGELER BAŞLANGIÇ*/
+
+
+
+
+/*Alert*/
+.redAlert{
+	width: 100%; height: 40px; background-color: brown; border-bottom: solid 5px darkred;
+	border-top: solid 5px darkred; border-radius: 50px;
+	text-align: center; font: bold 16px Poppins; padding: 20px 0 0 0; color: white; margin: 50px 0;}
+.yelAlert{
+	width: 100%; height: 40px; background-color: brown; border-bottom: solid 5px darkred;
+	border-top: solid 5px darkred;
+	text-align: center; font: bold 16px Poppins; padding: 20px 0 0 0; color: white;}
+.bluAlert{
+	width: 100%; height: 40px; background-color: brown; border-bottom: solid 5px darkred;
+	border-top: solid 5px darkred;
+	text-align: center; font: bold 16px Poppins; padding: 20px 0 0 0; color: white;}
+
+
+/*Sweet Alert Kısmı*/
+.swal2-title{font-family: Open Sans !important;}
+.swal2-popup{font-family: Calibri !important;}
+
+
+
+/*FORM TEMPLATE BAŞLANGIÇ*/
+.basic-grey {
+    max-width: 500px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+	font-family: Poppins;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+	font-family: Open Sans;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+	border: 1px solid #DADADA;
+	color: #888;
+	height: 30px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+
+	padding: 3px 3px 3px 5px;
+	width: 70%;
+	font-size: 12px;
+	line-height:15px;
+	-moz-box-shadow: inset 0px 1px 4px #ECECEC;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+	box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+	padding: 5px 3px 3px 5px;
+	resize: none;
+}
+.basic-grey select {
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+	line-height: 25px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+	background: #E27575;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+}
+.basic-grey .button:hover {
+    background: #CF7A7A
+}
+
+
+/*GENEL ÖGELER BİTİŞ*/
+
+
+
+/*ANİMASYONLAR BAŞLANGIÇ*/
+.fadeIn
+{
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+.fadeIn-short
+{
+	animation-name: fadeIn-short;
+	animation-duration: 0.5s;
+}
+.fadeOut
+{
+	animation-name: fadeOut;
+	animation-duration: 1s;
+}
+.rotateTiny
+{
+	animation-name: rotateTiny;
+	animation-duration: 3s;
+}
+/*ANİMASYONLAR BİTİŞ*/
+
+
+
+
+
+
+/*♠♠♠♠♠♠♠♠♠♠♠♠♠ RESİZEBLE ANA SAYFA ♠♠♠♠♠♠♠♠♠♠♠♠♠*/
+
+@media screen and (max-width:959px){
+
+	
+}
+
+
+ 
+
